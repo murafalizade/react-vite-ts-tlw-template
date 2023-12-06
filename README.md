@@ -5,7 +5,7 @@ Welcome to the React Project Template! This template provides a structured start
 
 ## GitHub Repository
 
-Explore the GitHub repository: [Your GitHub Repository](https://github.com/myrafalizade/react-vite-ts-tlw-template.git)
+Explore the GitHub repository: [Your GitHub Repository](https://github.com/murafalizade/react-vite-ts-tlw-template.git)
 
 Feel free to open issues, contribute, or provide feedback. Pull requests are welcome!
 
