@@ -1,0 +1,11 @@
+{
+  "home": "Inicio",
+  "profile": "Perfil",
+  "welcome": "Bienvenido a Vite + Tailwind CSS",
+  "description": "Edita src/app/pages/Home.tsx y guarda para recargar.",
+  "link": "Documentación de Vite",
+  "authPageTitle": "Acceso no autorizado",
+  "authPageDescription": "Lo siento, no tienes permiso para acceder a esta página. Por favor, contacta al administrador.",
+  "notFoundTitle": "404 - No encontrado",
+  "notFoundDescription": "Lo siento, la página que estás buscando no existe."
+}
