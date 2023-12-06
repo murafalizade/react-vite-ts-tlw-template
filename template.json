@@ -1,5 +1,4 @@
 {
-  "package": {
     "dependencies": {
     "@types/react-redux": "^7.1.32",
     "autoprefixer": "^10.4.16",
@@ -27,7 +26,6 @@
       "eslint-plugin-react-refresh": "^0.4.4",
       "typescript": "^5.2.2",
       "vite": "^5.0.0"
-    }
   },
   "scripts": {
     "build:css": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css",
