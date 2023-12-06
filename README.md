@@ -5,7 +5,7 @@ Welcome to the React Project Template! This template provides a structured start
 
 ## GitHub Repository
 
-Explore the GitHub repository: [Your GitHub Repository](https://github.com/your-username/your-react-template)
+Explore the GitHub repository: [Your GitHub Repository](https://github.com/murafalizade/your-react-template)
 
 Feel free to open issues, contribute, or provide feedback. Pull requests are welcome!
 
