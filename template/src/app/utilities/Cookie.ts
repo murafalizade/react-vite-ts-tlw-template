@@ -1,5 +1,5 @@
 class Cookie{
-    public static setCookie(name: string, value: string, days: number){
+    public static setCookie(name: string, value: string, days: number = 7){
         let expires = "";
         if (days) {
             const date = new Date();

@@ -5,7 +5,7 @@ import './app/styles/tailwind.css';
 import store from "./app/redux/store.ts";
 import {Provider} from "react-redux";
 import i18n from "./i18n.ts";
-import {I18nextProvider} from "react-i18next"; // Import the Tailwind CSS stylesheet
+import {I18nextProvider} from "react-i18next";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
