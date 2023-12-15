@@ -1,39 +1,12 @@
 {
-  "name": "cra-template-react-vite-ts-tlw-template",
-  "version": "0.0.5",
-  "type": "module",
-  "license": "MIT",
-  "main": "template.json",
-  "files": [
-    "template",
-    "template.json"
-  ],
-  "engines": {
-    "node": ">=8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/murafalizade/react-vite-ts-tlw-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/murafalizade/react-vite-ts-tlw-template/issues"
-  },
-  "keywords": [
-    "react",
-    "create-react-app",
-    "template",
-    "redux",
-    "reduxjs",
-    "redux-toolkit",
-    "react-redux",
-    "i18next"
-  ],
+  "name": "cra-template-react-vite-ts-tlw-project",
+  "version": "1.0.0",
   "scripts": {
     "build:css": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css",
-    "dev": "template/node_modules/.bin/vite",
-    "build": "template/node_modules/.bin/tsc && vite build && NODE_ENV=production postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
-    "lint": "template/node_modules/.bin/eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "template/node_modules/.bin/vite preview"
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/tsc && vite build && NODE_ENV=production postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
+    "lint": "node_modules/.bin/eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "node_modules/.bin/vite preview"
   },
   "dependencies": {
     "@types/react-redux": "^7.1.32",
