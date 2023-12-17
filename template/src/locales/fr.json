@@ -1,11 +1,11 @@
 {
-  "home": "Inicio",
-  "profile": "Perfil",
-  "welcome": "Bienvenido a Vite + Tailwind CSS",
-  "description": "Edita src/app/pages/Home.tsx y guarda para recargar.",
-  "link": "Documentación de Vite",
-  "authPageTitle": "Acceso no autorizado",
-  "authPageDescription": "Lo siento, no tienes permiso para acceder a esta página. Por favor, contacta al administrador.",
-  "notFoundTitle": "404 - No encontrado",
-  "notFoundDescription": "Lo siento, la página que estás buscando no existe."
+  "home": "Accueil",
+  "profile": "Profil",
+  "welcome": "Bienvenue à Vite + Tailwind CSS",
+  "description": "Modifiez src/app/pages/Home.tsx et enregistrez pour recharger.",
+  "link": "Documentation de Vite",
+  "authPageTitle": "Accès non autorisé",
+  "authPageDescription": "Désolé, vous n'avez pas la permission d'accéder à cette page. Veuillez contacter l'administrateur.",
+  "notFoundTitle": "404 - Non trouvé",
+  "notFoundDescription": "Désolé, la page que vous recherchez n'existe pas."
 }

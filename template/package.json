@@ -1,12 +1,13 @@
 {
-  "name": "cra-template-react-vite-ts-tlw-project",
+  "name": "{{projectName}}",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build:css": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css",
-    "dev": "node_modules/.bin/vite",
-    "build": "node_modules/.bin/tsc && vite build && NODE_ENV=production postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
-    "lint": "node_modules/.bin/eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "node_modules/.bin/vite preview"
+    "dev": "vite",
+    "build": "tsc && vite build && NODE_ENV=production postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@types/react-redux": "^7.1.32",
@@ -28,8 +29,6 @@
     "@types/node": "^20.10.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
