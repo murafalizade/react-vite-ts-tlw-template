@@ -39,6 +39,7 @@
     "@types/react-redux": "^7.1.32",
     "autoprefixer": "^10.4.16",
     "axios": "^1.6.2",
+    "cra-template-react-vite-ts-tlw-template": "^0.0.5",
     "i18next": "^23.7.7",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
