@@ -26,7 +26,7 @@ To use this template and create a new React project, follow these steps:
 1. **Create a New React Project:**
 
 ```bash
-npx create-react-app my-new-project --template react-vite-ts-tlw-template
+npx create-react-app my-new-project --template cra-template-react-vite-ts-tlw-template
  ```
 Replace my-new-project with the desired project name.
 
@@ -38,7 +38,7 @@ cd my-new-project
 Run the Development Server:
 
 ```bash
-npm start
+npm run dev
 ```
 This command starts the development server. Open http://localhost:3000 in your browser to view the application.
 
