@@ -1,5 +1,6 @@
 # React + TypeScript + Vite + Tailwind CSS + Multi Language + Authentication
 
+![Alt text](assets/image.png)
 
 Welcome to the React Project Template! This template provides a structured starting point for React projects with TypeScript, Vite, and Tailwind CSS.
 
@@ -40,7 +41,7 @@ Run the Development Server:
 ```bash
 npm run dev
 ```
-This command starts the development server. Open http://localhost:3000 in your browser to view the application.
+This command starts the development server. Open http://localhost:5173 in your browser to view the application.
 
 ## Customization
 You can customize the template based on your project needs:
