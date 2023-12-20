@@ -1,6 +1,6 @@
 {
   "name": "cra-template-react-vite-ts-tlw-template",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "main": "template.json",
