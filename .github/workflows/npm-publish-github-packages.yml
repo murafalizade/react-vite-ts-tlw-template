@@ -1,25 +1,26 @@
-name: Node.js Package
+name: Publish to npm
 
 on:
-  push:
-    branches:
-      - main
   release:
-    types: [created]
+    types:
+      - published
 
 jobs:
-  publish-gpr:
+  publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm publish
+          node-version: 14
+      - name: Authenticate with npm
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_SECRET }}" > ~/.npmrc
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
+
+      - name: Publish to npm
+        run: npm publish
