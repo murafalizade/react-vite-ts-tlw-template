@@ -2,12 +2,16 @@ import Toastie from '../../src/app/utilities/Toastie';
 import Swal from "sweetalert2";
 
 // Mock the Swal module
-jest.mock('sweetalert2', () => ({
-    fire: jest.fn(),
-    mixin: jest.fn(),
-    stopTimer: jest.fn(),
-    resumeTimer: jest.fn(),
-}));
+// jest.mock('sweetalert2', () => ({
+//     Swal: {
+//         fire: jest.fn(),
+//         mixin: jest.fn(),
+//         stopTimer: jest.fn(),
+//         resumeTimer: jest.fn(),
+//     },
+//
+// }));
+
 
 describe('Toastie class', () => {
 

@@ -1,4 +1,3 @@
-// Home.test.tsx
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom'; // Import Jest DOM matchers
 import { I18nextProvider } from 'react-i18next'; // Import I18nextProvider
@@ -12,7 +11,9 @@ const mockT = (key: string) => key;
 // Mocking useTranslation hook
 jest.mock('react-i18next', () => ({
     ...jest.requireActual('react-i18next'),
-    useTranslation: () => ({ t: mockT }),
+    useTranslation: () => ({
+        t: mockT
+    }),
 }));
 
 describe('Home component', () => {
@@ -28,7 +29,7 @@ describe('Home component', () => {
         const welcomeText = screen.getByText(/welcome/i);
         const descriptionText = screen.getByText(/description/i);
         const linkElement = screen.getByText(/link/i);
-
+        
         // Assert
         expect(welcomeText).toBeInTheDocument();
         expect(descriptionText).toBeInTheDocument();
