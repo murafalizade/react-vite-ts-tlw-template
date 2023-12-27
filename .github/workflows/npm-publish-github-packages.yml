@@ -6,6 +6,20 @@ on:
       - main
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: NPM initialization
+        run: npm i .
+
+      - name: Testing
+        run: npm run test
+
+
   publish:
     runs-on: ubuntu-latest
 
