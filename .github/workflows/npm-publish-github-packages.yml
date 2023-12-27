@@ -20,7 +20,9 @@ jobs:
 
       - name: Testing
         id: test
-        run: npm run test
+        run: |
+          cd template
+          npm run test
 
   publish:
     needs: test
